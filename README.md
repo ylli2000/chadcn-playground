@@ -1,4 +1,4 @@
-<!-- ![Application Screenshot](./public/images/screenshot.png) -->
+![Application Screenshot](./public/images/screenshot.png)
 
 # 🎨 Building Our Next.js Project with shadcn/ui and Theming
 

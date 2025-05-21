@@ -1,6 +1,3 @@
-import { ArrowRight } from "lucide-react"
-import Link from "next/link"
-
 import { Button } from "@/components/ui/button"
 import {
   Card,
@@ -10,6 +7,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
+import { ArrowRight } from "lucide-react"
+import Image from "next/image"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -36,6 +36,7 @@ export default function Home() {
       </div>
 
       <article className="prose dark:prose-invert max-w-none">
+        <Image className="rounded-md mb-8" src="/images/screenshot.png" alt="Application Screenshot" width={1000} height={1000} />
         <h1 className="text-3xl font-bold mb-6">🎨 Building Our Next.js Project with shadcn/ui and Theming</h1>
         
         <p>This project shows how we built our application with Next.js, shadcn/ui components, and a robust theming system.</p>
