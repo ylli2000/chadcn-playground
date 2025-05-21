@@ -1,3 +1,5 @@
+<!-- ![Application Screenshot](./public/images/screenshot.png) -->
+
 # 🎨 Building Our Next.js Project with shadcn/ui and Theming
 
 This README explains how we built our project with Next.js, shadcn/ui components, and a robust theming system.
